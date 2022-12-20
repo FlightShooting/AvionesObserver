@@ -23,13 +23,12 @@ public class Ventana extends JFrame implements Runnable {
         boton.setBounds(20, 10, 100, 30);
         add(boton);
         super.paint(g);
-        Image k=Toolkit.getDefaultToolkit().getImage("C:\\Users\\cbocc\\Desktop\\aviones\\png\\field.jpeg");
-        //C:\Users\cbocc\Documents\GitHub\FlightShooting\aviones\png\field.jpeg
+        Image k=Toolkit.getDefaultToolkit().getImage("C:\\Users\\cbocc\\Documents\\GitHub\\AvionObserver\\aviones\\png\\field.jpeg");
         g.drawImage(k, 0, 0, 2500, 1000, this);
         Font f=new Font("Ariel Black", Font.BOLD, 20);
         g.setFont(f);
 
-        Image j=Toolkit.getDefaultToolkit().getImage("C:\\Users\\cbocc\\Desktop\\aviones\\png\\plane.png");
+        Image j=Toolkit.getDefaultToolkit().getImage("C:\\Users\\cbocc\\Documents\\GitHub\\AvionObserver\\aviones\\png\\plane.png");
         g.drawImage(j, 450, 110, 40, 50, this);
         g.drawImage(j, 100, 110, 40, 50, this);
     }
