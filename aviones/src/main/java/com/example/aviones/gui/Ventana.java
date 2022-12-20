@@ -41,6 +41,7 @@ public class Ventana extends JFrame implements Runnable {
         this.setLocationRelativeTo(null);
         this.setResizable(false);
         this.setLayout(null);
+        paint(this.getGraphics());
     }
     private void avion(){
         while(x1!=800) {
